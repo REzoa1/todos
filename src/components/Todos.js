@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { TodosItem } from "./TodosItem/TodosItem";
 import { Footer } from "./Footer/Footer";
 
-export const TodoList = () => {
+export const Todos = () => {
   const { todosList, isLoading } = useSelector(selectTodosData);
   const dispatch = useDispatch();
   useEffect(() => {
